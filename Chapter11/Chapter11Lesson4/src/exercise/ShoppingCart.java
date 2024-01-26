@@ -20,7 +20,7 @@ public class ShoppingCart {
 
          // Check for the existence of a particular String element.  
          // Remove it, if it exists.
-         if (items.contains ("Shirt")){
+         if (items.contains("Shirt")){
            items.remove("Shirt");
          }
          System.out.println(items);

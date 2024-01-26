@@ -14,7 +14,7 @@ public class ShoppingCart {
         Item item = new Shirt(25.99, 'M', 'G');
 
         // Test for non-Shirt object type
-        //  Item item = new Item();
+        // Item item = new Item();
         
         // call the display method on the object, then the getColor method
         item.display();

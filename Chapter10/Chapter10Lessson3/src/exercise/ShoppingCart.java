@@ -14,7 +14,7 @@ public class ShoppingCart {
      * @param args the command line arguments
      */
     public static void main(String args[]){
-        Order order = new Order("Rick Wilson", 910.00, "VA", Order.NONPROFIT);
+        Order order = new Order("Rick Wilson", 810.00, "VA", Order.NONPROFIT);
         System.out.println("Discount is: "+ order.getDiscount());
     }
     

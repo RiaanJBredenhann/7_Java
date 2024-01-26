@@ -4,7 +4,7 @@ public class chapter4Lesson1 {
     
     public static void main(String[] args) {
        
-        String custName = "John";
+        String custName = "Jane";
         String itemDesc = "Carton of Milk";
         String message;
         

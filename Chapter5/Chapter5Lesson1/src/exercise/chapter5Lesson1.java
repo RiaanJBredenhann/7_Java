@@ -9,10 +9,10 @@ public class chapter5Lesson1 {
         
         double price = 23;
         double tax = 1.15;
-        int quantity = 4;
+        int quantity = 0;
         double total;
         
-        boolean outOfStock = false;
+        boolean outOfStock = true;
         
         total = (price*quantity)*tax;
         
