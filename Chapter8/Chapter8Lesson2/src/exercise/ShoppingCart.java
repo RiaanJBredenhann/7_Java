@@ -18,7 +18,7 @@ public class ShoppingCart {
         item1.displayItem();
 
         // Call the 4-arg setItemFields method, checking the return value.
-        int retcode = item1.setItemFields("Shirt", 1, 34.99, 'B');
+        int retcode = item1.setItemFields("Shirt", 1, 34.99, ' ');
         if (retcode < 0) {
             System.out.println("Invalid color code.  Item not added.");
         } else {
