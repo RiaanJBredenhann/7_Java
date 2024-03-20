@@ -8,7 +8,7 @@ public class chapter5Lesson2 {
         String message;
         
         message = custName + " wants to purchase " + items.length + " items.    "
-                + custName + " wants a discount on the " + items[2];
+                + custName + " wants a discount on the " + items[0];
         
         System.out.println(message);
     }
