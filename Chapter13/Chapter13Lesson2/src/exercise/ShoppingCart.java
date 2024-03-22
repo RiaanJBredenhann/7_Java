@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.function.Predicate;
 
 public class ShoppingCart {
-    ArrayList<Item> items = new ArrayList();
+    ArrayList<Item> items = new ArrayList<>();
     
     public static void main(String[] args){
         ShoppingCart cart = new ShoppingCart();
